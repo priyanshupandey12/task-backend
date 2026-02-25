@@ -70,7 +70,6 @@ task-manager/
 | Rate limiting | 100 requests / 15 min per IP |
 | Sensitive data encryption | AES-256-CBC on task description field |
 | Authorization | Every task query scoped to `req.user._id` |
-| Secure headers | helmet() middleware |
 
 ---
 
