@@ -9,12 +9,13 @@ const signToken = (userId) => {
 
 
 const sendTokenCookie = (res, user, statusCode, message) => {
+  const isProduction = process.env.NODE_ENV === "production";
   const token = signToken(user._id);
 
   const cookieOptions = {
     httpOnly: true,   
-    secure: false, 
-    sameSite: "lax",
+    secure: isProduction, 
+    sameSite: isProduction ? "None" : "Lax",
     maxAge: 7 * 24 * 60 * 60 * 1000, 
   };
 
