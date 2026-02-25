@@ -8,8 +8,8 @@ A production-ready full-stack Task Management application built with **Node.js +
 
 | Service | URL |
 |--------|-----|
-| Frontend | `https://your-` |
-| Backend API | `https://your-` |
+| Live | `https://task-ui-z693.onrender.com/login` |
+
 
 ---
 
