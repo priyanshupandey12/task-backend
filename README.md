@@ -110,23 +110,6 @@ CLIENT_URL=http://localhost:5173
 npm run dev   # starts on http://localhost:5000
 ```
 
-### 3. Frontend Setup
-
-```bash
-cd frontend
-npm install
-cp .env.example .env
-```
-
-Fill in `.env`:
-
-```env
-VITE_API_URL=http://localhost:5000/api/v1
-```
-
-```bash
-npm run dev   # starts on http://localhost:5173
-```
 
 ---
 
